@@ -10,8 +10,6 @@ The player is presented with a main menu at the start of the game, which starts 
 To-Do/Bugs
 ---
 
-There are two bugs currently in the game. When the player destroys 2 bricks at the same time, a third one, seemingly random, is destroyed as well. This happens because they are removed from the ArrayList, which is referenced by another thread milliseconds afterwards. But, of course for the time being this is a feature and not a bug. 
-
 The most urgent bug-fix includes packaging the fonts used in the game with the source files to enable a uniform experience to anyone playing the game from a variety of different operating systems. In this installment of the game, the two fonts used in the game are provided along with the source code.
 Potential enhancements to the game include the ability for new levels to be created by reading in a text file and the introduction of various power-ups, such as extra lives, slowing down the ball or faster paddle movement. There could also be an added audio component to the game, such as a soundtrack and sound effects for when the paddle hits the ball.
 
